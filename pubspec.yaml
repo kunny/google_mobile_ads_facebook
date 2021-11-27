@@ -1,0 +1,27 @@
+name: google_mobile_ads_facebook
+description: Google Mobile Ads mediation plugin for Facebook Audience Network.
+version: 6.8.0
+homepage: https://github.com/kunny/google_mobile_ads_facebook
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.androidhuman.plugins.google_mobile_ads_facebook
+        pluginClass: GoogleMobileAdsFacebookPlugin
+      ios:
+        pluginClass: AHMGoogleMobileAdsFacebookPlugin
