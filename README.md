@@ -32,23 +32,20 @@ the [app_tracking_transparency](https://pub.dev/packages/app_tracking_transparen
 
 ```dart
 
-final authStatus = await
-AppTrackingTransparency.trackingAuthorizationStatus;
+final authStatus = await AppTrackingTransparency.trackingAuthorizationStatus;
 ```
 
 Call `GoogleMobileAdsFacebook.setAdvertiserTrackingEnabled()` to get personalized ads from Facebook.
 
 ```dart
-await
-GoogleMobileAdsFacebook.setAdvertiserTrackingEnabled(authStatus == TrackingStatus.authorized);
+await GoogleMobileAdsFacebook.setAdvertiserTrackingEnabled(authStatus == TrackingStatus.authorized);
 ```
 
 Lastly, initialize the Google Mobile Ads SDK. Note that `setAdvertiserTrackingEnabled()` should be
 called **before** you initialize the Google Mobile Ads SDK.
 
 ```dart
-await
-MobileAds.instance.initialize();
+await MobileAds.instance.initialize();
 ```
 
 ## Disclaimer
