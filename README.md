@@ -23,3 +23,34 @@ dependencies:
 ```
 
 Refer to the available tags on [here](https://github.com/kunny/google_mobile_ads_facebook/tags).
+
+## Usage
+
+Get the tracking authorization status by
+calling `AppTrackingTransparency.trackingAuthorizationStatus`, which is available in
+the [app_tracking_transparency](https://pub.dev/packages/app_tracking_transparency) package.
+
+```dart
+
+final authStatus = await
+AppTrackingTransparency.trackingAuthorizationStatus;
+```
+
+Call `GoogleMobileAdsFacebook.setAdvertiserTrackingEnabled()` to get personalized ads from Facebook.
+
+```dart
+await
+GoogleMobileAdsFacebook.setAdvertiserTrackingEnabled(authStatus == TrackingStatus.authorized);
+```
+
+Lastly, initialize the Google Mobile Ads SDK. Note that `setAdvertiserTrackingEnabled()` should be
+called **before** you initialize the Google Mobile Ads SDK.
+
+```dart
+await
+MobileAds.instance.initialize();
+```
+
+## Disclaimer
+
+This is not an official Google product.
