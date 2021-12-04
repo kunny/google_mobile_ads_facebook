@@ -1,6 +1,6 @@
 name: google_mobile_ads_facebook
 description: Google Mobile Ads mediation plugin for Facebook Audience Network.
-version: 6.8.0
+version: 6.8.0+1
 homepage: https://github.com/kunny/google_mobile_ads_facebook
 publish_to: 'none'
 
