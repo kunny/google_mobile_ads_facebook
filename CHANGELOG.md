@@ -1,5 +1,10 @@
 ## Facebook Flutter Mediation Plugin Changelog
 
+### Version 6.12.0+1
+
+* Supports [Facebook Android adapter version 6.12.0.0](https://github.com/googleads/googleads-mobile-android-mediation/blob/main/ThirdPartyAdapters/meta/CHANGELOG.md#61200).
+* Supports [Facebook iOS adapter version 6.12.0.1](https://github.com/googleads/googleads-mobile-ios-mediation/blob/main/adapters/Meta/CHANGELOG.md#version-61201).
+
 ### Version 6.12.0
 
 * Supports [Facebook Android adapter version 6.12.0.0](https://github.com/googleads/googleads-mobile-android-mediation/blob/main/ThirdPartyAdapters/meta/CHANGELOG.md#61200).
