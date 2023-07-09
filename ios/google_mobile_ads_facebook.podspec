@@ -16,7 +16,7 @@ Google Mobile Ads mediation plugin for Facebook Audience Network.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'GoogleMobileAdsMediationFacebook', '6.10.0.0'
+  s.dependency 'GoogleMobileAdsMediationFacebook', '6.11.1.0'
   s.ios.deployment_target = '10.0'
   s.static_framework = true
 
