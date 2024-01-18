@@ -1,4 +1,9 @@
-## Facebook Flutter Mediation Plugin Changelog
+## Meta Audience Network Flutter Mediation Plugin Changelog
+
+### Version 6.14.0
+
+* Supports [Meta Audience Network Android adapter version 6.14.0.0](https://github.com/googleads/googleads-mobile-android-mediation/blob/main/ThirdPartyAdapters/meta/CHANGELOG.md#61400).
+* Supports [Meta Audience Network iOS adapter version 6.12.0.1](https://github.com/googleads/googleads-mobile-ios-mediation/blob/main/adapters/Meta/CHANGELOG.md#version-61201).
 
 ### Version 6.12.0+1
 
